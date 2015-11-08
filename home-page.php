@@ -22,7 +22,7 @@ get_header(); ?>
 					</div><!--end of homepage_banner_holder *** -->	
 					
 					<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
-						<div class="modal-dialog">
+						<div class="modal-dialog modal-lg">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
