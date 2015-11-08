@@ -14,6 +14,43 @@ get_header(); ?>
 				<div class="col-sm-12">
 					
 					<div id="homepage_banner_content_holder">
+						<img src="<?php echo($template_directory ); ?>/assets/img/emma_hug_dark.jpg"/>
+						
+						<div class="headline_play_video">
+							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#videoModal">Play Video <span class="glyphicon glyphicon-play-circle headline_play_icon"></span></button>
+						</div>
+					</div><!--end of homepage_banner_holder *** -->	
+					
+					<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h4 class="modal-title" id="videoModalLabel">Give Kids Magic Arms</h4>
+								</div>
+								<div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+									  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-FC4vH8ho7U" frameborder="0" allowfullscreen></iframe>
+                  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div><!--end of column *** -->	
+			
+			<div class="clear"></div><!--end of clear *** -->
+			</div>
+			<!--end of row ****************************************** -->	
+
+			<!--start of row ****************************************** -->	
+			<div class="row-fluid homepage_banner">
+				<div class="col-sm-12">
+					
+					<div id="homepage_banner_content_holder">
 						<!--bavkground layer image -->
 						<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly1.png"/>
 						

@@ -63,6 +63,7 @@ $template_directory = get_bloginfo('template_directory');
 	<script type="text/javascript" src="<?php echo($template_directory); ?>/assets/third_party/rotation/jquery-css-transform.js"></script>
 	<script type="text/javascript" src="<?php echo($template_directory); ?>/assets/third_party/rotation/jquery-animate-css-rotate-scale.js"></script>
 	<script type="text/javascript" src="<?php echo($template_directory); ?>/assets/third_party/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="<?php echo($template_directory); ?>/assets/third_party/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="<?php echo($template_directory); ?>/assets/js/main.js"></script>
 	
 	

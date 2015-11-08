@@ -11,7 +11,7 @@ Text Domain: magic_arms
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
+Use it to make something cool, have fun, and share what you have learned with others.
 
 magic_arms is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 
@@ -351,6 +351,33 @@ ul#primary-menu {
   text-align: center;
   width: 100%;
 }
+.homepage_banner .headline_play_video {
+  position: absolute;
+  top: 55%;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+.homepage_banner .headline_play_video .headline_play_icon {
+  vertical-align: -12%;
+}
+.homepage_banner .headline_play_video .btn {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  background-color: Transparent;
+  border: none;
+  font-size: 70px;
+  color: #fff;
+}
+.homepage_banner .headline_play_video .btn:hover {
+  border-width: 2px;
+  border-style: solid;
+}
+.homepage_banner .headline_play_video .btn:focus {
+  border-width: 2px;
+  border-style: solid;
+}
 .homepage_banner h1 {
   font-size: 70px;
 }
@@ -686,6 +713,33 @@ textarea {
   }
   .homepage_banner {
     padding-top: 0;
+  }
+  .homepage_banner .headline_play_video {
+    position: absolute;
+    top: 55%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
+  .homepage_banner .headline_play_video .headline_play_icon {
+    vertical-align: -12%;
+  }
+  .homepage_banner .headline_play_video .btn {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    background-color: Transparent;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+  }
+  .homepage_banner .headline_play_video .btn:hover {
+    border-width: 2px;
+    border-style: solid;
+  }
+  .homepage_banner .headline_play_video .btn:focus {
+    border-width: 2px;
+    border-style: solid;
   }
   .homepage_banner .headline_holder {
     position: relative;
