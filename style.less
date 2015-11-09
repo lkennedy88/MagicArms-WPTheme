@@ -437,6 +437,14 @@ ul#primary-menu{
 	background-color:@blue;	
 	position:relative;
 
+  .homepage_banner_image_holder{
+    background-color: @blue;
+    background-image: url("assets/img/emma_hug_dark.jpg");
+    background-size: cover;
+    background-position: 50% 35%;
+    height: 600px;
+  }
+
 	.headline_holder{
 		position:absolute;
 		top:10%;
@@ -461,18 +469,11 @@ ul#primary-menu{
       vertical-align: middle;
       float: none;
       background-color: Transparent;
-      border: none;
-      font-size: 70px;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #fff;
+      font-size: 20px;
       color: #fff;
-      
-      &:hover{
-        border-width: 2px;
-        border-style: solid;
-      }
-      &:focus{
-        border-width: 2px;
-        border-style: solid;
-      }
     }
 	}
 
@@ -875,36 +876,40 @@ textarea{
 	.homepage_banner{
 		padding-top:0;
 
-	.headline_play_video{
-		position:absolute;
-		top:55%;
-		color:#fff;
-		text-align:center;
-		width:100%;
-    
-    .headline_play_icon{
-      vertical-align: -12%;
+    .homepage_banner_image_holder{
+      background-color: @blue;
+      background-image: url("assets/img/emma_hug_dark.jpg");
+      background-size: cover;
+      background-position: 50% 35%;
+      height: 300px;
     }
 
-    .btn{
-      display: inline-block;
-      vertical-align: middle;
-      float: none;
-      background-color: Transparent;
-      border: none;
-      font-size: 40px;
-      color: #fff;
+    .headline_play_video{
+      position:absolute;
+      top:55%;
+      color:#fff;
+      text-align:center;
+      width:100%;
       
-      &:hover{
-        border-width: 2px;
-        border-style: solid;
+      .headline_play_icon{
+        vertical-align: -12%;
       }
-      &:focus{
+
+      .btn{
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        background-color: Transparent;
         border-width: 2px;
         border-style: solid;
+        border-color: #fff;
+        font-size: 15px;
+        color: #fff;
+      }
+      h1 {
+        font-size:20px;
       }
     }
-  }
 
 		.headline_holder{
 			position: relative;

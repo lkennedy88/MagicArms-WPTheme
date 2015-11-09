@@ -13,13 +13,12 @@ get_header(); ?>
 			<div class="row-fluid homepage_banner">
 				<div class="col-sm-12">
 					
-					<div id="homepage_banner_content_holder">
-						<img src="<?php echo($template_directory ); ?>/assets/img/emma_hug_dark.jpg"/>
-						
-						<div class="headline_play_video">
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#videoModal">Play Video <span class="glyphicon glyphicon-play-circle headline_play_icon"></span></button>
-						</div>
-					</div><!--end of homepage_banner_holder *** -->	
+          <div class="homepage_banner_image_holder">
+            <div class="headline_play_video">
+              <h1>Give Kids Magic Arms</h1>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#videoModal">Play Video <span class="glyphicon glyphicon-play-circle headline_play_icon"></span></button>
+            </div>
+          </div>
 					
 					<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel">
 						<div class="modal-dialog modal-lg">

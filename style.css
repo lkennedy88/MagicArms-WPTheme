@@ -344,6 +344,13 @@ ul#primary-menu {
   background-color: #58c6cc;
   position: relative;
 }
+.homepage_banner .homepage_banner_image_holder {
+  background-color: #58c6cc;
+  background-image: url("assets/img/emma_hug_dark.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+  height: 600px;
+}
 .homepage_banner .headline_holder {
   position: absolute;
   top: 10%;
@@ -366,17 +373,11 @@ ul#primary-menu {
   vertical-align: middle;
   float: none;
   background-color: Transparent;
-  border: none;
-  font-size: 70px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  font-size: 20px;
   color: #fff;
-}
-.homepage_banner .headline_play_video .btn:hover {
-  border-width: 2px;
-  border-style: solid;
-}
-.homepage_banner .headline_play_video .btn:focus {
-  border-width: 2px;
-  border-style: solid;
 }
 .homepage_banner h1 {
   font-size: 70px;
@@ -714,6 +715,13 @@ textarea {
   .homepage_banner {
     padding-top: 0;
   }
+  .homepage_banner .homepage_banner_image_holder {
+    background-color: #58c6cc;
+    background-image: url("assets/img/emma_hug_dark.jpg");
+    background-size: cover;
+    background-position: 50% 35%;
+    height: 300px;
+  }
   .homepage_banner .headline_play_video {
     position: absolute;
     top: 55%;
@@ -729,17 +737,14 @@ textarea {
     vertical-align: middle;
     float: none;
     background-color: Transparent;
-    border: none;
-    font-size: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    font-size: 15px;
     color: #fff;
   }
-  .homepage_banner .headline_play_video .btn:hover {
-    border-width: 2px;
-    border-style: solid;
-  }
-  .homepage_banner .headline_play_video .btn:focus {
-    border-width: 2px;
-    border-style: solid;
+  .homepage_banner .headline_play_video h1 {
+    font-size: 20px;
   }
   .homepage_banner .headline_holder {
     position: relative;
