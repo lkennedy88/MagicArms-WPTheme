@@ -15,7 +15,7 @@ get_header(); ?>
 					
           <div class="homepage_banner_image_holder">
             <div class="headline_play_video">
-              <h1>Give Kids Magic Arms</h1>
+              <h1>Helping kids be kids</h1>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#videoModal">Play Video <span class="glyphicon glyphicon-play-circle headline_play_icon"></span></button>
             </div>
           </div>
@@ -42,49 +42,6 @@ get_header(); ?>
 			</div><!--end of column *** -->	
 			
 			<div class="clear"></div><!--end of clear *** -->
-			</div>
-			<!--end of row ****************************************** -->	
-
-			<!--start of row ****************************************** -->	
-			<div class="row-fluid homepage_banner">
-				<div class="col-sm-12">
-					
-					<div id="homepage_banner_content_holder">
-						<!--bavkground layer image -->
-						<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly1.png"/>
-						
-						<!--clouds layer 1 -->
-						<div class="home_image" id="ha_cloud_layer_1">	
-							<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly2_clouds.png"/>
-						</div><!--end of ha_cloud_layer_1 **-->
-
-						<!--clouds layer 2 -->
-						<div class="home_image" id="ha_cloud_layer_2">	
-							<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly3_clouds.png"/>
-						</div><!--end of ha_cloud_layer_2 **-->
-
-						<!--arm layer -->
-						<div class="home_image" id="ha_arm_layer_holder_position">	
-							<div class="home_image" id="ha_arm_layer_holder">	
-								<div class="home_image" id="ha_arm_layer">	
-									<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly5_kid_arm.png"/>
-								</div><!--end of ha_arm_layer **-->	
-							</div><!--end of ha_arm_layer_holder **-->	
-						</div><!--end of ha_arm_layer_holder_position **-->		
-
-						<img src="<?php echo($template_directory ); ?>/assets/img/animation/magic_arms_animation_ly4_kid.png"/>
-					</div><!--end of homepage_banner_holder *** -->		
-					
-
-						<div class="headline_holder">
-							<h1>Helping kids be kids</h1>
-							<h3>A practical solution for debilitating arm-muscle weakness</h3>
-						</div>
-					
-				
-				</div><!--end of column *** -->	
-
-				<div class="clear"></div><!--end of clear *** -->
 			</div>
 			<!--end of row ****************************************** -->	
 
