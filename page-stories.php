@@ -22,6 +22,7 @@ $the_title = get_the_title();
 				<div class="clear"></div><!--end of clear *** -->
 			</div>
 			<!--end of row ****************************************** -->	
+
 <?php if( have_rows('nef_news_or_event_group') ){ 
 		while ( have_rows('nef_news_or_event_group') ) : the_row();
 
@@ -77,6 +78,49 @@ $the_title = get_the_title();
 			<!--end of row ****************************************** -->	
 	<?php endwhile; // end of the loop. ?>	
 <?php } ?>	
+
+
+<?php 
+$interval_marker = 0;
+
+if( have_rows('sc_side_circle_callout') ){ 
+		while ( have_rows('sc_side_circle_callout') ) : the_row();
+
+		$sc_headline = get_sub_field('sc_headline');
+		$sc_body_copy = get_sub_field('sc_body_copy');
+		$sc_image = get_sub_field('sc_image');
+		$sc_image_path = $sc_image[url];
+		$sc_image_alt = $sc_image[alt];
+
+		$grey_class = "";
+
+		if($interval_marker == 1){
+			$grey_class = "grey";
+			$interval_marker = 0;
+		}
+		else{
+			$interval_marker = $interval_marker +1;
+		}
+?>		
+			<!--start of row ****************************************** -->	
+			<div class="row-fluid standard_padding <?php echo($grey_class);?> side_circle_callout">
+				<div class="col-lg-4 col-lg-offset-1">
+					<img src="<?php echo($sc_image_path);?>" alt="<?php echo($sc_image_alt);?>"/>
+				</div><!--end of column *** -->	
+
+				<div class="col-lg-6">
+					<h2><?php echo($sc_headline);?></h2>
+					<?php echo($sc_body_copy);?>
+				</div><!--end of column *** -->	
+
+				<div class="clear"></div><!--end of clear *** -->
+			</div>
+			<!--end of row ****************************************** -->
+	
+	<?php 	
+	endwhile; // end of the loop. ?>			
+<?php } ?>	
+
 
 </div><!--end of container-fluid ****** -->	
 
