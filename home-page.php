@@ -26,6 +26,11 @@ get_header(); ?>
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 										<span aria-hidden="true">&times;</span>
+                    <script>
+                      jQuery("#videoModal .close, #videoModal .btn").live("click", function() {
+                        jQuery("#videoModal iframe").attr("src", jQuery("#videoModal iframe").attr("src"));
+                      });
+                    </script>
 									</button>
 									<h4 class="modal-title" id="videoModalLabel">Give Kids Magic Arms</h4>
 								</div>
