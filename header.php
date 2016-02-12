@@ -29,7 +29,7 @@ $template_directory = get_bloginfo('template_directory');
 </script>
 
 	<!--fonts **************************************************** --> 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,300italic' rel='stylesheet' type='text/css'>
 
 	<!-- CSS **************************************************** --> 
 	<link rel="stylesheet" href="<?php echo($template_directory ); ?>/assets/third_party/reset.css"> <!--reset -->

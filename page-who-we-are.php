@@ -84,7 +84,7 @@ get_header(); ?>
 			<div class="row-fluid standard_padding video">
 				<div class="col-sm-8 col-sm-offset-2">
 					<div class='embed-container'>
-						<iframe src='http://www.youtube.com/embed/<?php echo($vc_youtube_id)?>' frameborder='0' allowfullscreen>
+						<iframe src='https://www.youtube.com/embed/<?php echo($vc_youtube_id)?>' frameborder='0' allowfullscreen>
 						</iframe>
 					</div><!--end of embed-container ***** -->
 					<h2><?php echo($vc_headline);?></h2>					

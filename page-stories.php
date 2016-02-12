@@ -64,7 +64,7 @@ $the_title = get_the_title();
 						<?php echo($nef_short_body_copy_paragraph );?>
 <?php if($nef_youtube_id){?>
 						<div class='embed-container'>
-						<iframe src='http://www.youtube.com/embed/<?php echo($nef_youtube_id)?>' frameborder='0' allowfullscreen>
+						<iframe src='https://www.youtube.com/embed/<?php echo($nef_youtube_id)?>' frameborder='0' allowfullscreen>
 						</iframe>
 					</div><!--end of embed-container ***** -->
 <?php
