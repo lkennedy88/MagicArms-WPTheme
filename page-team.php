@@ -25,7 +25,7 @@ $the_title = get_the_title();
 
 
 			<!--start of row ****************************************** -->	
-			<div class="row-fluid">
+			<div class="row-fluid row-centered">
 				<div class="col-sm-12">
 					<h2 style="text-align:center;">Leadership</h2>
 				</div><!--end of column *** -->	
@@ -47,7 +47,7 @@ if( have_rows('lb_leader_bio') ){
 
 
 ?>						
-				<div class="col-sm-8 col-sm-offset-2">
+				<div class="col-sm-6 col-centered">
 					<div class="leadership_bio">
 						<img src="<?php echo($lb_bio_picture_path);?>" alt="<?php echo($lb_bio_picture_alt);?>"/>
 						<h3><?php echo($lb_bio_user_first_and_last_name);?></h3>
