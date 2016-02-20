@@ -9,53 +9,53 @@ get_header(); ?>
 
 <div class="container-fluid">
 
-			<!--start of row ****************************************** -->	
-			<div class="row-fluid gear_yellow">
-				<div class="col-sm-12">
+      <!--start of row ****************************************** --> 
+      <div class="row-fluid gear_yellow">
+        <div class="col-sm-12">
 
-		<?php if ( have_posts() ) : ?>
-
-
-				<h1><?php printf( __( 'Search Results for: %s', 'magic_arms' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+    <?php if ( have_posts() ) : ?>
 
 
-				</div><!--end of column *** -->	
-				<div class="clear"></div><!--end of clear *** -->
-			</div><!--end of row *** -->		
-			<!--end of row ****************************************** -->
+        <h1><?php printf( __( 'Search Results for: %s', 'magic_arms' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 
 
-			
-			<!--start of row ****************************************** -->	
-			<div class="row-fluid">	
-				<div class="col-sm-10 col-sm-offset-1">
+        </div><!--end of column *** --> 
+        <div class="clear"></div><!--end of clear *** -->
+      </div><!--end of row *** -->    
+      <!--end of row ****************************************** -->
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'content', 'search' );
-				?>
+      
+      <!--start of row ****************************************** --> 
+      <div class="row-fluid"> 
+        <div class="col-sm-10 col-sm-offset-1">
 
-			<?php endwhile; ?>
+      <?php /* Start the Loop */ ?>
+      <?php while ( have_posts() ) : the_post(); ?>
 
-			<?php the_posts_navigation(); ?>
+        <?php
+        /**
+         * Run the loop for the search to output the results.
+         * If you want to overload this in a child theme then include a file
+         * called content-search.php and that will be used instead.
+         */
+        get_template_part( 'content', 'search' );
+        ?>
 
-		<?php else : ?>
+      <?php endwhile; ?>
 
-			<?php get_template_part( 'content', 'none' ); ?>
+      <?php the_posts_navigation(); ?>
 
-		<?php endif; ?>
+    <?php else : ?>
 
-			</div><!--end of column *** -->	
-			<div class="clear"></div><!--end of clear *** -->
-		</div>
-		<!--end of row ****************************************** -->
-</div><!--end of container-fluid ****** -->	
+      <?php get_template_part( 'content', 'none' ); ?>
+
+    <?php endif; ?>
+
+      </div><!--end of column *** --> 
+      <div class="clear"></div><!--end of clear *** -->
+    </div>
+    <!--end of row ****************************************** -->
+</div><!--end of container-fluid ****** --> 
 
 <?php get_footer(); ?>
