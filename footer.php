@@ -16,7 +16,6 @@ $template_directory = get_bloginfo('template_directory');
             <h3>Contact Information</h3>
             <p>Email: <a href="mailto:info@magicarms.org">info@magicarms.org</a><br/><br/>
             Angie Conley: 612.483.6100<br/>
-            Tom KraMer: 612.868.0704<br/><br/>
             8560 Cottonwood St NW, #100<br/>
             Minneapolis, MN 55433</p>
         </div><!--end of column *** --> 
