@@ -8,8 +8,22 @@ $template_directory = get_bloginfo('template_directory');
 get_header(); 
 ?>
 
-<?php query_posts('post_type=post&post_status=publish&category_name=newsletter&posts_per_page=1&paged='. get_query_var('paged')); ?>
-<? while ( have_posts() ) : the_post(); 
+<?php 
+
+$args = array (
+  'post_type' => 'post',
+  'post_status' => 'publish',
+  'category_name' => 'newsletter',
+  'posts_per_page' => 1,
+  'paged' => (get_query_var('paged') ? get_query_var('paged') : 1),
+  'order' => 'DSC',
+  'orderby' => 'date',
+);
+
+$newsletter_query = new WP_Query($args);
+
+if ($newsletter_query->have_posts()):
+  while ( $newsletter_query->have_posts() ) : $newsletter_query->the_post(); 
 
 $the_title = get_the_title();
 $body_copy = get_the_content();
@@ -41,5 +55,6 @@ $body_copy = get_the_content();
       <!--end of row ****************************************** --> 
 </div><!--end of container-fluid ****** --> 
 <?php endwhile; // end of the loop. ?>
+<?php endif; // end of if statement. ?>
 
 <?php get_footer(); ?>
