@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Resources
- *
+ * Lori
  * @package Stone Arch
  */
 $template_directory = get_bloginfo('template_directory');
