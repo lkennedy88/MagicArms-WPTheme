@@ -54,7 +54,6 @@ if( have_rows('rs_support_groups') ){
 ?>            
         <div class="col-sm-6 col-centered">
           <div class="leadership_bio">
-          <div class="icon"></div> 
   
             
           <h3><b><?php echo($rs_type_of_condition);?></b></h3> 
