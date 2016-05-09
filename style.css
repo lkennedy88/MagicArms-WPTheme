@@ -222,6 +222,33 @@ img {
 .leadership_bio blockquote p {
   display: inline;
 }
+.resource {
+  padding: 40px 60px;
+  border-bottom: 1px #f0efee solid;
+}
+.resource img {
+  width: 248px;
+  margin: 0 auto;
+  display: block;
+}
+.resource h3 {
+  text-align: center;
+  color: #59c5cc;
+}
+.resource h4 {
+  text-align: center;
+  color: #59c5cc;
+  font-size: 15px;
+}
+.resource blockquote {
+  color: #346770;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.resource blockquote p {
+  display: inline;
+}
 .advisory_board {
   padding: 40px 0;
 }
@@ -916,3 +943,4 @@ textarea {
   }
 }
 /*end of large screen   ----------- */
+
