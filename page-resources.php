@@ -53,7 +53,8 @@ if( have_rows('rs_support_groups') ){
        
 ?>            
         <div class="col-sm-6 col-centered">
-          <div class="leadership_bio">
+      <div class="med_content_resouces">
+          <div class="resources">
   
             
           <h3><b><?php echo($rs_type_of_condition);?></b></h3> 
@@ -123,7 +124,8 @@ if( have_rows('rm_medical_blogs') ){
 
 ?>         
          <div class="col-sm-6 col-centered">
-          <div class="leadership_bio">
+   <div class="med_content_resouces">
+          <div class="resources">
               
         
             <h3><b><?php echo($rm_medical_blog_name);?></b></h3>
