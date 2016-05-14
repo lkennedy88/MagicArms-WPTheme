@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Resources
- * Lori
+ * Lori Resources 5/14/2016- update to medical blog
  * @package Stone Arch
  */
 $template_directory = get_bloginfo('template_directory');
@@ -66,8 +66,7 @@ if( have_rows('rs_support_groups') ){
     </div>       
 
  
-
-                          
+                      
             <?php if($rs_support_groups){ 
 ?>
                
@@ -90,6 +89,7 @@ if($bios_added_count == 1){
   } 
   endwhile; // end of the loop. ?>      
 <?php } ?>          
+    
         <div class="clear"></div><!--end of clear *** -->
       </div>
       <!--end of row ****************************************** --> 
@@ -97,12 +97,13 @@ if($bios_added_count == 1){
 
 
 
-<!--start of row ****************************************** --> 
-<div class="row-fluid row-centered">
+
+ <!--start of row ****************************************** --> 
+      <div class="row-fluid row-centered">
         <div class="col-sm-12">
-    <h2 style="text-align:center;">Medical Blogs</h2>
-  </div><!--end of column *** --> 
-  <div class="clear"></div><!--end of clear *** -->
+          <h2 style="text-align:center;">Medical Groups</h2>
+        </div><!--end of column *** --> 
+        <div class="clear"></div><!--end of clear *** -->
 <?php
 if( have_rows('rm_medical_blogs') ){ 
     while ( have_rows('rm_medical_blogs') ) : the_row();
@@ -124,8 +125,7 @@ if( have_rows('rm_medical_blogs') ){
 
 ?>         
          <div class="col-sm-6 col-centered">
-   <div class="med_content_resouces">
-          <div class="resources">
+             <div class="resources">
               
         
             <h3><b><?php echo($rm_medical_blog_name);?></b></h3>
@@ -150,3 +150,4 @@ if( have_rows('rm_medical_blogs') ){
 
 <?php endwhile; // end of the loop. ?>  
 <?php get_footer(); ?>
+
