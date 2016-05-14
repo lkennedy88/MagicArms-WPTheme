@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Resources
- * Lori Resources 5/14/2016- update to medical groups
+ * Lori Resources 5/14/2016- update to medical blogs
  * @package Stone Arch
  */
 $template_directory = get_bloginfo('template_directory');
@@ -101,7 +101,7 @@ if($bios_added_count == 1){
  <!--start of row ****************************************** --> 
       <div class="row-fluid row-centered">
         <div class="col-sm-12">
-          <h2 style="text-align:center;">Medical Groups</h2>
+          <h2 style="text-align:center;">Medical Blogs</h2>
         </div><!--end of column *** --> 
         <div class="clear"></div><!--end of clear *** -->
 <?php
