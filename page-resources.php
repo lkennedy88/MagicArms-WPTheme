@@ -1,7 +1,7 @@
 <?php
 /**
  * Template Name: Resources
- * Lori Resources 5/14/2016- update to medical blog
+ * Lori Resources 5/14/2016- update to medical groups
  * @package Stone Arch
  */
 $template_directory = get_bloginfo('template_directory');
